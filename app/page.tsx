@@ -30,12 +30,14 @@ export default function Home() {
       <div className="grid-lines" aria-hidden="true" />
       <div className="hero-copy">
         <p className="eyebrow"><span /> Computer Engineering Co-op Student Studying at the University of Guelph</p>
-        <h1>If I touch one life, I touch <em>many lives...</em></h1>
-        <p className="hero-lede">I&apos;m Lance, a Computer Engineering student with two professional co-op terms spanning aerospace quality, automation, data analysis and technical design.</p>
+        <h1>Greetings, and welcome to <em>my website!</em></h1>
+        <p className="hero-lede">My name is Lance Mikolo Baysa, and I am a fourth-year Computer Engineering student at the University of Guelph with two professional engineering co-op terms spanning aerospace quality, automation, data analysis and technical design.</p>
         <div className="hero-actions"><a className="button primary" href="#projects">Explore my work <Arrow /></a><a className="button secondary" href="#contact">Contact me</a></div>
         <div className="hero-proof"><div><strong>2</strong><span>Engineering<br/>co-op terms</span></div><div><strong>5×</strong><span>Dean&apos;s Honours<br/>List</span></div><div><strong>40%</strong><span>Reported workflow<br/>improvement</span></div></div>
       </div>
-      <div className="hero-visual"><div className="orbit one"/><div className="orbit two"/><div className="portrait"><img src="/lance-profile-art.png" alt="Stylized portrait of Lance Baysa holding a rose in the rain" /></div><div className="status"><i/><div><small>Currently exploring</small><strong>AI · Data · Automation</strong></div></div></div>
+      <div className="hero-art" aria-label="Neon portrait of Lance Mikolo Baysa">
+        <img src="/lance-neon-portrait.png" alt="Neon portrait of Lance Mikolo Baysa" />
+      </div>
     </section>
 
     <section className="section intro" id="about"><div className="section-label">01 / About</div><div><p className="statement">Background and Long-Term Goal</p><div className="intro-columns"><p>I&apos;m pursuing a B.Eng. in Computer Engineering (Co-op) at the University of Guelph. I enjoy working where software, data and physical engineering systems meet.</p><p>My long-term goal is to apply artificial intelligence and data analytics to industrial environments—building intelligent automation, predictive quality tools and better decision-making systems.</p></div></div></section>
