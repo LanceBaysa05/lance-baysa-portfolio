@@ -4,10 +4,10 @@ const experience = [
 ];
 
 const projects = [
-  { number: "01", type: "Aerospace automation", title: "Daily RNC Reporting System", copy: "Automated a multi-step reporting process that organized aircraft non-conformance data, updated tracking workbooks and prepared formatted Outlook drafts.", tags: ["Power Automate", "PowerShell", "Excel", "HTML"], accent: "blue" },
-  { number: "02", type: "Data automation", title: "I-TAG KPI Automation", copy: "Designed a data pipeline that compared quality records, appended only new entries and applied consistent formatting and classification rules.", tags: ["Office Scripts", "SQL", "Excel", "Data validation"], accent: "cyan" },
-  { number: "03", type: "Embedded systems", title: "IoT Smart Home", copy: "Created a connected home-control prototype using a microcontroller, Wi-Fi communication and a relay module to control electrical devices remotely.", tags: ["Arduino UNO", "ESP8266", "C++", "IoT"], accent: "violet" },
-  { number: "04", type: "Engineering design", title: "Robotic Wheelchair", copy: "Collaborated on an assistive robotic wheelchair concept, applying structured engineering design, prototyping and team-based problem solving.", tags: ["Prototyping", "Design", "Teamwork"], accent: "amber" },
+  { number: "01", type: "Aerospace automation", title: "Automated Bombardier Non-Conformance Email Reporting System", copy: "Automated a multi-step reporting process that organized aircraft non-conformance data, updated tracking workbooks and prepared formatted Outlook drafts.", tags: ["Power Automate", "PowerShell", "Excel", "HTML"], accent: "blue" },
+  { number: "02", type: "Embedded systems", title: "IoT-Based Smart Home Automation System", copy: "Created a connected home-control prototype using a microcontroller, Wi-Fi communication and a relay module to control electrical devices remotely.", tags: ["Arduino UNO", "ESP8266", "C++", "IoT"], accent: "cyan" },
+  { number: "03", type: "Mechanical design", title: "3D-Printed Mechanical Device Design", copy: "Designed and prototyped an original Kinder Egg Surprise toy using CAD software, featuring a gear-driven galloping mechanism, meeting 100% of project safety and size constraints with a team of 5.", tags: ["CAD", "3D Printing", "Mechanical Design", "Team of 5"], accent: "violet" },
+  { number: "04", type: "Autonomous systems", title: "Autonomous Vehicle Design", copy: "Collaborated on an autonomous vehicle concept, applying structured engineering design, prototyping and team-based problem solving.", tags: ["Prototyping", "Autonomous Systems", "Design", "Teamwork"], accent: "amber" },
 ];
 
 const skills = [
@@ -29,16 +29,16 @@ export default function Home() {
     <section className="hero" id="top">
       <div className="grid-lines" aria-hidden="true" />
       <div className="hero-copy">
-        <p className="eyebrow"><span /> Computer Engineering · University of Guelph</p>
-        <h1>I build systems that make engineering work <em>smarter.</em></h1>
+        <p className="eyebrow"><span /> Computer Engineering Co-op Student Studying at the University of Guelph</p>
+        <h1>If I touch one life, I touch <em>many lives...</em></h1>
         <p className="hero-lede">I&apos;m Lance, a Computer Engineering student with two professional co-op terms spanning aerospace quality, automation, data analysis and technical design.</p>
         <div className="hero-actions"><a className="button primary" href="#projects">Explore my work <Arrow /></a><a className="button secondary" href="#contact">Contact me</a></div>
         <div className="hero-proof"><div><strong>2</strong><span>Engineering<br/>co-op terms</span></div><div><strong>5×</strong><span>Dean&apos;s Honours<br/>List</span></div><div><strong>40%</strong><span>Reported workflow<br/>improvement</span></div></div>
       </div>
-      <div className="hero-visual"><div className="orbit one"/><div className="orbit two"/><div className="portrait"><span>LB</span><small>Add your photo here</small></div><div className="status"><i/><div><small>Currently exploring</small><strong>AI · Data · Automation</strong></div></div></div>
+      <div className="hero-visual"><div className="orbit one"/><div className="orbit two"/><div className="portrait"><img src="/lance-profile-art.png" alt="Stylized portrait of Lance Baysa holding a rose in the rain" /></div><div className="status"><i/><div><small>Currently exploring</small><strong>AI · Data · Automation</strong></div></div></div>
     </section>
 
-    <section className="section intro" id="about"><div className="section-label">01 / About</div><div><p className="statement">Engineering is most powerful when it turns complicated work into clear, dependable solutions.</p><div className="intro-columns"><p>I&apos;m pursuing a B.Eng. in Computer Engineering (Co-op) at the University of Guelph. I enjoy working where software, data and physical engineering systems meet.</p><p>My long-term goal is to apply artificial intelligence and data analytics to industrial environments—building intelligent automation, predictive quality tools and better decision-making systems.</p></div></div></section>
+    <section className="section intro" id="about"><div className="section-label">01 / About</div><div><p className="statement">Background and Long-Term Goal</p><div className="intro-columns"><p>I&apos;m pursuing a B.Eng. in Computer Engineering (Co-op) at the University of Guelph. I enjoy working where software, data and physical engineering systems meet.</p><p>My long-term goal is to apply artificial intelligence and data analytics to industrial environments—building intelligent automation, predictive quality tools and better decision-making systems.</p></div></div></section>
 
     <section className="section dark" id="experience">
       <Heading number="02" label="Experience" title={<>Experience that<br/>ships real results.</>} copy="Two engineering co-op terms gave me hands-on experience solving real problems in aerospace manufacturing and federal infrastructure." />
