@@ -45,7 +45,7 @@ export default function Home() {
 
     <section className="section dark" id="experience">
       <Heading number="02" label="Experience" title={<>Experience that<br/>ships real results.</>} copy="Two engineering co-op terms gave me hands-on experience solving real problems in aerospace manufacturing and federal infrastructure." />
-      <div className="timeline">{experience.map((item,index)=><article className="experience" key={item.company}><div className="marker">0{index+1}</div><div className="experience-meta"><span>{item.period}</span><strong>{item.company}</strong></div><div className="experience-body"><h3>{item.role}</h3><p>{item.copy}</p><ul>{item.wins.map(win=><li key={win}>{win}</li>)}</ul></div></article>)}</div>
+      <div className="timeline">{experience.map((item,index)=><article className="experience" key={item.company}><div className="marker">0{index+1}</div><div className="experience-meta"><span>{item.period}</span><strong>{item.company}</strong></div><div className="experience-body"><h3>{item.role}</h3><p>{item.copy}</p><ul>{item.wins.map(win=><li key={win}>{win}</li>)}</ul></div><div className="experience-art"><img src={index===0?"/mhi-neon-jet.png":"/dfo-neon-rescue.png"} alt={index===0?"Neon business jet flying through clouds":"Neon rescue boat with two fish jumping over ocean waves"}/></div></article>)}</div>
     </section>
 
     <section className="section projects" id="projects">
