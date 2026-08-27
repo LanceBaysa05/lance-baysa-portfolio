@@ -27,3 +27,12 @@ h1{max-width:1050px;text-shadow:0 0 34px #293cff38}h1 em,h2 em{background:linear
 footer{color:#9da9c5;background:#04050d;border-top:1px solid #ff2bd638}footer .brand strong,footer>a{color:#f6f7ff}
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-right:24px}.hero-copy{max-width:760px}.hero-art{min-height:440px}.hero-art img{width:min(100%,560px)}}
 @media(max-width:600px){.hero-art{min-height:330px;margin-top:10px}.hero-art img{width:min(112%,440px)}}
+
+/* Futuristic typography and seamless enlarged hero portrait */
+body{font-family:"Cascadia Code","Segoe UI Mono","Roboto Mono",Consolas,monospace}
+h1,h2,h3,.brand,.button,.eyebrow,.section-label,nav,.nav-contact,.hero-proof,.project-top,.tags,.year,.coursework span{font-family:"Cascadia Code","Segoe UI Mono","Roboto Mono",Consolas,monospace}
+.hero{grid-template-columns:minmax(0,1.04fr) minmax(440px,.96fr);gap:clamp(18px,3vw,48px)}
+.hero-art{margin-right:-5vw;overflow:visible}
+.hero-art img{width:min(122%,780px);max-width:none;opacity:.98;filter:drop-shadow(0 0 18px #00eaff99) drop-shadow(0 0 44px #705cff66);-webkit-mask-image:radial-gradient(ellipse 76% 86% at 50% 48%,#000 52%,#000d 70%,transparent 100%);mask-image:radial-gradient(ellipse 76% 86% at 50% 48%,#000 52%,#000d 70%,transparent 100%)}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-art{margin-right:0}.hero-art img{width:min(108%,650px)}}
+@media(max-width:600px){.hero-art img{width:min(118%,500px)}}
