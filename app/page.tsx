@@ -1,6 +1,6 @@
 const experience = [
   { period: "May — Aug 2026", role: "Quality Engineering Intern", company: "MHI Canada Aerospace", copy: "Connected computer engineering with aerospace manufacturing through quality automation, production reporting and root-cause investigations.", wins: ["Built reporting workflows with Power Automate, PowerShell, Excel and Outlook.", "Automated I-TAG processing to improve speed, consistency and traceability.", "Supported 5-Why reviews, aircraft inspections and non-conformance investigations."] },
-  { period: "Jan — May 2026", role: "Engineering Student", company: "Fisheries and Oceans Canada", copy: "Supported real-property engineering through technical data validation, CAD documentation and process standardization.", wins: ["Validated infrastructure datasets used for technical decisions.", "Produced and revised AutoCAD site plans and documentation.", "Developed standardized templates and guidance that improved workflow efficiency by approximately 40%."] },
+  { period: "Jan — Apr 2026", role: "Engineering Student", company: "Fisheries and Oceans Canada", copy: "Supported real-property engineering through technical data validation, CAD documentation and process standardization.", wins: ["Validated infrastructure datasets used for technical decisions.", "Produced and revised AutoCAD site plans and documentation.", "Developed standardized templates and guidance that improved workflow efficiency by approximately 40%."] },
 ];
 
 const projects = [
@@ -17,11 +17,12 @@ const skills = [
 ];
 
 function Arrow() { return <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M7 5h8v8" /></svg>; }
+function CatIcon() { return <span className="cat-badge" aria-hidden="true"><svg className="cat-icon" viewBox="0 0 64 64"><path d="M14 27 11 10l15 9a29 29 0 0 1 12 0l15-9-3 17c4 5 6 10 6 16 0 11-10 17-24 17S8 54 8 43c0-6 2-11 6-16Z"/><path d="m19 39 8 3-8 3m26-6-8 3 8 3M27 50l5 3 5-3"/><circle cx="24" cy="34" r="2.5"/><circle cx="40" cy="34" r="2.5"/></svg></span>; }
 
 export default function Home() {
   return <main>
     <header className="site-header">
-      <a className="brand" href="#top" aria-label="Lance Baysa home"><span>LB</span><strong>Lance Baysa</strong></a>
+      <a className="brand" href="#top" aria-label="Lance Baysa home"><CatIcon/><strong>Lance Baysa</strong></a>
       <nav aria-label="Main navigation"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a></nav>
       <a className="nav-contact" href="mailto:your.email@example.com">Let&apos;s talk <Arrow /></a>
     </header>
@@ -36,7 +37,7 @@ export default function Home() {
         <div className="hero-proof"><div><strong>2</strong><span>Engineering<br/>co-op terms</span></div><div><strong>5×</strong><span>Dean&apos;s Honours<br/>List</span></div><div><strong>40%</strong><span>Reported workflow<br/>improvement</span></div></div>
       </div>
       <div className="hero-art" aria-label="Neon portrait of Lance Mikolo Baysa">
-        <img src="/lance-neon-portrait.png" alt="Neon portrait of Lance Mikolo Baysa" />
+        <img src="/lance-neon-cutout.png" alt="Neon portrait of Lance Mikolo Baysa" />
       </div>
     </section>
 
@@ -60,7 +61,7 @@ export default function Home() {
     <section className="section education"><div className="education-card"><span className="section-label">05 / Education</span><div className="education-main"><div><p>University of Guelph</p><h2>Bachelor of Engineering<br/><em>Computer Engineering — Co-op</em></h2></div><div className="year">Expected<strong>2027</strong></div></div><div className="coursework"><span>Selected achievements</span><p>Dean&apos;s Honours List · Object-Oriented Programming: 92% · Large-Scale Software Architecture: 90% · Microcomputer Interfacing: 87%</p></div></div></section>
 
     <section className="contact" id="contact"><p className="eyebrow"><span/> Open to engineering opportunities</p><h2>Let&apos;s build something<br/><em>worth talking about.</em></h2><p>I&apos;m interested in software development, AI, data analytics, embedded systems and engineering automation.</p><div className="contact-links"><a href="mailto:your.email@example.com">Email me <Arrow/></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <Arrow/></a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <Arrow/></a></div></section>
-    <footer><div className="brand"><span>LB</span><strong>Lance Baysa</strong></div><p>Designed &amp; built with purpose.</p><a href="#top">Back to top ↑</a></footer>
+    <footer><div className="brand"><CatIcon/><strong>Lance Baysa</strong></div><p>Designed &amp; built with purpose.</p><a href="#top">Back to top ↑</a></footer>
   </main>;
 }
 

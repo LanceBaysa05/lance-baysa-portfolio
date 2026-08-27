@@ -36,3 +36,8 @@ h1,h2,h3,.brand,.button,.eyebrow,.section-label,nav,.nav-contact,.hero-proof,.pr
 .hero-art img{width:min(122%,780px);max-width:none;opacity:.98;filter:drop-shadow(0 0 18px #00eaff99) drop-shadow(0 0 44px #705cff66);-webkit-mask-image:radial-gradient(ellipse 76% 86% at 50% 48%,#000 52%,#000d 70%,transparent 100%);mask-image:radial-gradient(ellipse 76% 86% at 50% 48%,#000 52%,#000d 70%,transparent 100%)}
 @media(max-width:900px){.hero{grid-template-columns:1fr}.hero-art{margin-right:0}.hero-art img{width:min(108%,650px)}}
 @media(max-width:600px){.hero-art img{width:min(118%,500px)}}
+
+/* Bright neon cat brand mark */
+.brand .cat-badge{width:38px;height:38px;display:grid;place-items:center;flex:0 0 38px;border-radius:11px;background:radial-gradient(circle at 50% 45%,#153b64 0,#08152c 58%,#030712 100%);border:1px solid #7ffcff;box-shadow:0 0 7px #fff,0 0 15px #00eaff,0 0 30px #00eaffcc,0 0 44px #ff2bd688}
+.brand .cat-icon{width:28px;height:28px;overflow:visible;fill:none;stroke:#f8ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 2px #fff) drop-shadow(0 0 5px #00eaff) drop-shadow(0 0 10px #ff2bd6)}
+.brand .cat-icon circle{fill:#ffeb3b;stroke:#fff;stroke-width:1.5;filter:drop-shadow(0 0 4px #fff) drop-shadow(0 0 7px #ff2bd6)}
